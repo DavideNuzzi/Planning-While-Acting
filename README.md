@@ -8,9 +8,9 @@ In this study, we investigate how people make sequential embodied decisions by b
 
 The experiments were developed as 3D video games in Unity. You can play the exact versions of the tasks used in the study directly in your browser via GitHub Pages:
 
-* **[Main Experiment](https://davidenuzzi.github.io/CrossTheRiverV2/Experiment_V1/index.html)** The core river-crossing task. Players control a frog avatar and must choose between crossing larger, closer rocks ("safe" jumps) and smaller, farther rocks ("risky" jumps) to reach the red flag.
-* **[Control Experiment 1: Delayed Movement](https://davidenuzzi.github.io/CrossTheRiverV2/Experiment_V2/index.html)** To test the influence of physical momentum, the avatar's movement is blocked for 1 second after landing on each rock. You can rotate the camera, but cannot immediately jump.
-* **[Control Experiment 2: Delayed Movement + Forced Rotation](https://davidenuzzi.github.io/CrossTheRiverV2/Experiment_V3/index.html)** In addition to the 1-second delay upon landing, the avatar is automatically rotated at decision points to face the direction of the "new" (alternative) jump path, testing motor cost and spatial coherence.
+* **[Main Experiment](https://davidenuzzi.github.io/Planning-While-Acting/Experiment_V1/index.html)** The core river-crossing task. Players control a frog avatar and must choose between crossing larger, closer rocks ("safe" jumps) and smaller, farther rocks ("risky" jumps) to reach the red flag.
+* **[Control Experiment 1: Delayed Movement](https://davidenuzzi.github.io/Planning-While-Acting/Experiment_V2/index.html)** To test the influence of physical momentum, the avatar's movement is blocked for 1 second after landing on each rock. You can rotate the camera, but cannot immediately jump.
+* **[Control Experiment 2: Delayed Movement + Forced Rotation](https://davidenuzzi.github.io/Planning-While-Acting/Experiment_V3/index.html)** In addition to the 1-second delay upon landing, the avatar is automatically rotated at decision points to face the direction of the "new" (alternative) jump path.
 
 **Controls:**
 * **Mouse:** Adjust the camera view.
@@ -38,8 +38,8 @@ This project uses specific statistical packages for its linear mixed model analy
 
 ```bash
 # Clone the repository
-git clone [https://github.com/davidenuzzi/CrossTheRiverV2.git](https://github.com/davidenuzzi/CrossTheRiverV2.git)
-cd CrossTheRiverV2
+git clone [https://github.com/davidenuzzi/Planning-While-Acting.git](https://github.com/davidenuzzi/Planning-While-Acting.git)
+cd Planning-While-Acting
 
 # Create the conda environment
 conda env create -f environment.yml
