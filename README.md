@@ -21,7 +21,7 @@ The experiments were developed as 3D video games in Unity. You can play the exac
 
 ## Data and Code Structure
 
-The raw data from the experiments is stored as `.pkl` files inside the `data` folder. This data is structured using custom Python classes that collect all the relevant information about the game, the levels, and the players' choices. 
+The data from the experiments is stored as `.pkl` files inside the `data` folder. This data is structured using custom Python classes that collect all the relevant information about the game, the levels, and the players' choices. 
 
 To understand how this data is formatted, you should read the `CrossTheRiver.py` file. It contains all the class definitions as well as the useful functions needed to work with the datasets. 
 
